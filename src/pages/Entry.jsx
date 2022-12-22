@@ -23,7 +23,6 @@ function Entry() {
 
     dispatch(getEntry(entryId));
 
-    // eslint-disable-next-line
   }, [isError, message, entryId]);
 
   // Close entry
