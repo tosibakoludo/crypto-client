@@ -29,7 +29,7 @@ function Entry() {
   // Close entry
   const onEntryClose = () => {
     dispatch(sellEntry(entryId));
-    toast.success('Entry Closed');
+    toast.success('Investment sold.');
     navigate('/entries');
   };
 
