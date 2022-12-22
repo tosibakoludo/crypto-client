@@ -9,7 +9,15 @@ function Home() {
           Have you recently invested in crypto? Or you just track your
           investment history?
         </h1>
-        <p>Please choose from an option below</p>
+        <br />
+        <p>Please choose from an option below: </p>
+        <br />
+        <Link to="/new-entry" className="btn btn-reverse btn-block">
+          <FaQuestionCircle /> Add New Entry
+        </Link>
+        <Link to="/entries" className="btn btn-block">
+          <FaTicketAlt /> View My Investments
+        </Link>
       </section>
     </>
   );
